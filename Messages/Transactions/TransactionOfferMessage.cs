@@ -7,10 +7,10 @@ namespace AriesFrameworkCustom.Messages.Transactions
     /// <summary>
     /// Represents a connection transaction message
     /// </summary>
-    public class DeleteProofMessage : AgentMessage
+    public class TransactionOfferMessage : AgentMessage
     {
         /// <inheritdoc />
-        public DeleteProofMessage()
+        public TransactionOfferMessage()
         {
             Id = Guid.NewGuid().ToString();
             Type = CustomMessageTypes.TransactionOffer;
